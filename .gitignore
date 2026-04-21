@@ -30,12 +30,20 @@ terraform/.terraform.lock.hcl
 terraform/*.tfvars
 override.tf
 override.tf.json
+*.tfstate
+*.tfstate.*
+
+# ── Python Binaries ────────────────────────────────────────
+*.tar.gz
+*.whl
+*.zip
 
 # ── dbt ──────────────────────────────────────────────────
 dbt/target/
 dbt/dbt_packages/
 dbt/logs/
 dbt/profiles/profiles.yml
+dbt/profiles/
 
 # ── Docker ───────────────────────────────────────────────
 docker-compose.override.yml
