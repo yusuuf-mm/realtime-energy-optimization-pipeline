@@ -1,0 +1,56 @@
+# ── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+.Python
+env/
+venv/
+.venv/
+
+# ── Environment Variables ────────────────────────────────
+.env
+*.env
+.env.*
+
+# ── AWS Credentials (NEVER commit these) ────────────────
+.aws/
+credentials
+*.pem
+*.key
+
+# ── Terraform ────────────────────────────────────────────
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/.terraform.lock.hcl
+terraform/*.tfvars
+override.tf
+override.tf.json
+
+# ── dbt ──────────────────────────────────────────────────
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+dbt/profiles/profiles.yml
+
+# ── Docker ───────────────────────────────────────────────
+docker-compose.override.yml
+
+# ── Data Files ───────────────────────────────────────────
+*.parquet
+*.csv
+*.json.gz
+
+# ── IDE ──────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
