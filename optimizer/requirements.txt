@@ -1,0 +1,3 @@
+pulp
+psycopg2-binary
+pandas

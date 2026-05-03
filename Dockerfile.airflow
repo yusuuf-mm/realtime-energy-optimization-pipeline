@@ -1,0 +1,11 @@
+FROM apache/airflow:3.0.3
+
+USER airflow
+
+RUN pip install --no-cache-dir \
+    pulp \
+    pandas \
+    psycopg2-binary \
+    sqlalchemy \
+    dbt-postgres \
+    pyarrow
