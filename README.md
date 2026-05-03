@@ -471,5 +471,5 @@ resource "aws_s3_bucket" "energy_data_lake" {
 
 ## 🤝 Author
 
-**Yusuuf** — Data Engineer | Operations Research | Cloud  
+**YUSUF MM** — Data Engineer | Operations Research | Cloud  
 GitHub: [@yusuuf-mm](https://github.com/yusuuf-mm)
